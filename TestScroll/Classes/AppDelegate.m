@@ -64,6 +64,9 @@
     NSURL* url = [launchOptions objectForKey:UIApplicationLaunchOptionsURLKey];
     NSString* invokeString = nil;
     
+    // Uncomment next line for remote debugging via http://localhost:9999/ in browser - iOS5 only?
+    [NSClassFromString(@"WebView") _enableRemoteInspector];
+    
     if (url && [url isKindOfClass:[NSURL class]]) {
         invokeString = [url absoluteString];
 		NSLog(@"TestScroll launchOptions = %@", url);

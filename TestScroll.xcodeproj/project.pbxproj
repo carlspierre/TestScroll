@@ -37,6 +37,9 @@
 		AECE18DC15AB39B5000740EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE18DB15AB39B5000740EE /* AppDelegate.m */; };
 		AECE18DF15AB39B5000740EE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AECE18DE15AB39B5000740EE /* MainViewController.m */; };
 		AECE18E115AB39B5000740EE /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AECE18E015AB39B5000740EE /* MainViewController.xib */; };
+		AECE18EB15AB3A13000740EE /* www in Resources */ = {isa = PBXBuildFile; fileRef = AECE18EA15AB3A13000740EE /* www */; };
+		AECE18F315AB3C69000740EE /* data.js in Sources */ = {isa = PBXBuildFile; fileRef = AECE18F215AB3C69000740EE /* data.js */; };
+		AECE18F915AB421B000740EE /* iscroll.js in Sources */ = {isa = PBXBuildFile; fileRef = AECE18F815AB421B000740EE /* iscroll.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,10 +57,10 @@
 		AECE18A715AB39B5000740EE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		AECE18A915AB39B5000740EE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		AECE18AB15AB39B5000740EE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		AECE18AF15AB39B5000740EE /* TestScroll-Info.plist */ = {isa = PBXFileReference; path = "TestScroll-Info.plist"; sourceTree = "<group>"; };
+		AECE18AF15AB39B5000740EE /* TestScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestScroll-Info.plist"; sourceTree = "<group>"; };
 		AECE18B115AB39B5000740EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AECE18B315AB39B5000740EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AECE18B515AB39B5000740EE /* TestScroll-Prefix.pch */ = {isa = PBXFileReference; path = "TestScroll-Prefix.pch"; sourceTree = "<group>"; };
+		AECE18B515AB39B5000740EE /* TestScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestScroll-Prefix.pch"; sourceTree = "<group>"; };
 		AECE18B615AB39B5000740EE /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		AECE18BB15AB39B5000740EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AECE18BF15AB39B5000740EE /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -70,13 +73,16 @@
 		AECE18D315AB39B5000740EE /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		AECE18D515AB39B5000740EE /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		AECE18D715AB39B5000740EE /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		AECE18DA15AB39B5000740EE /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		AECE18DA15AB39B5000740EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		AECE18DB15AB39B5000740EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		AECE18DD15AB39B5000740EE /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		AECE18DD15AB39B5000740EE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		AECE18DE15AB39B5000740EE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		AECE18E015AB39B5000740EE /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		AECE18E315AB39B5000740EE /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
-		AECE18E415AB39B5000740EE /* verify.sh */ = {isa = PBXFileReference; path = verify.sh; sourceTree = "<group>"; };
+		AECE18E315AB39B5000740EE /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+		AECE18E415AB39B5000740EE /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		AECE18EA15AB3A13000740EE /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		AECE18F215AB3C69000740EE /* data.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = data.js; path = www/data.js; sourceTree = "<group>"; };
+		AECE18F815AB421B000740EE /* iscroll.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = iscroll.js; path = www/iscroll.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,9 @@
 		AECE188115AB39B5000740EE = {
 			isa = PBXGroup;
 			children = (
+				AECE18F815AB421B000740EE /* iscroll.js */,
+				AECE18F215AB3C69000740EE /* data.js */,
+				AECE18EA15AB3A13000740EE /* www */,
 				AECE18AD15AB39B5000740EE /* TestScroll */,
 				AECE189215AB39B5000740EE /* Frameworks */,
 				AECE189015AB39B5000740EE /* Products */,
@@ -327,6 +336,7 @@
 				AECE18D615AB39B5000740EE /* Capture.bundle in Resources */,
 				AECE18D815AB39B5000740EE /* Cordova.plist in Resources */,
 				AECE18E115AB39B5000740EE /* MainViewController.xib in Resources */,
+				AECE18EB15AB3A13000740EE /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +366,8 @@
 				AECE18B415AB39B5000740EE /* main.m in Sources */,
 				AECE18DC15AB39B5000740EE /* AppDelegate.m in Sources */,
 				AECE18DF15AB39B5000740EE /* MainViewController.m in Sources */,
+				AECE18F315AB3C69000740EE /* data.js in Sources */,
+				AECE18F915AB421B000740EE /* iscroll.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,7 +496,7 @@
 					"-weak-lSystem",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -513,7 +525,7 @@
 					"-weak-lSystem",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
